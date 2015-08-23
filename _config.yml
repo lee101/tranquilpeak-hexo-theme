@@ -12,7 +12,6 @@
 # Image directory (default: images)
 image_dir: assets/images
 
-
 # Sidebar Configuration
 #    You can add groups of links and links much as you want
 #    You just have to respect the indentation : `groups of links` -> `link` -> `title, link, icon`
@@ -28,65 +27,60 @@ image_dir: assets/images
 sidebar:
     menu:
         home:
-            title: global.home
+            title: Home
             url: /
             icon: home
         categories:
-            title: global.categories
+            title: Categories
             url: /all-categories
             icon: bookmark
         tags:
-            title: global.tags
+            title: Tags
             url: /all-tags
             icon: tags
         archives:
-            title: global.archives
+            title: Archives
             url: /all-archives
             icon: archive
         search:
-            title: global.search
+            title: Search
             url: /#search
             icon: search
             # `st-search-show-outputs` classes are used to open swiftype search window
-            class: st-search-show-outputs
+            class: t-search-show-outputs
         about:
-            title: global.about
+            title: About me
             url: /#about
             icon: question
     author_links:
-        # github:
-        #     title: global.github
-        #     url: https://github.com/
-        #     icon: github
-        # stack_overflow:
-        #     title: global.stack_overflow
-        #     url: http://stackoverflow.com/users
-        #     icon: stack-overflow
-        # twitter:
-        #     title: global.twitter
-        #     url: https://twitter.com/
-        #     icon: twitter
-        # facebook:
-        #     title: global.facebook
-        #     url: https://facebook.com/
-        #     icon: facebook
-        # google_plus:
-        #     title: global.google_plus
-        #     url: https://plus.google.com/
-        #     icon: google-plus
-        # linked_in:
-        #     title: global.linked_in
-        #     url: https://www.linkedin.com/profile/
-        #     icon: linkedin
-        # mail:
-        #     title: global.mail
-        #     url: mailto:
-        #     icon: envelope-o
-    rss:
-        rss:
-            title: global.rss
-            url: /atom.xml
-            icon: rss
+         github:
+             title: global.github
+             url: https://github.com/lee101
+             icon: github
+         stack_overflow:
+             title: global.stack_overflow
+             url: http://stackoverflow.com/users/1323161/lee-penkman
+             icon: stack-overflow
+         twitter:
+             title: global.twitter
+             url: http://www.twitter.com/@LeeLeePenkman
+             icon: twitter
+         facebook:
+             title: global.facebook
+             url: https://www.facebook.com/profile.php?id=100000881925921
+             icon: facebook
+         google_plus:
+             title: global.google_plus
+             url: https://plus.google.com/u/0/+LeePenkman
+             icon: google-plus
+         linked_in:
+             title: global.linked_in
+             url: http://nz.linkedin.com/in/leepenkman
+             icon: linkedin
+         mail:
+             title: global.mail
+             url: mailto:leepenkman@gmail.com
+             icon: envelope-o
 
 
 # Header configuration
@@ -103,16 +97,16 @@ header:
 # Author
 # Your biography and your job is editable in each languages files in `languages` folder
 author:
-    email:
-    location:
+    email: leepenkman@gmail.com
+    location: Wellington
     # Your profile picture located in folder `source/_images/` (development)
     # or in `source/assets/images/` (production).
     # Overwritten by your gravatar image if `gravatar_image` is enabled
     picture:
     # Your Twitter username without the @. E.g : `tranquilpeak`
-    twitter:
+    twitter: LeeLeePenkman
     # Your google plus profile id. E.g : `+Tranquilpeak` or `123812884128439`
-    google_plus:
+    google_plus: +LeePenkman
 
 
 # Customization
@@ -122,9 +116,9 @@ author:
 # 2: Display medium sidebar on large and medium screen and header bar on small screen and medium sidebar is swiped
 # 3: Display header bar on all screens and large sidebar is swiped
 # 4: Display header bar on all screens and medium sidebar is swiped
-sidebar_behavior: 2
+sidebar_behavior: 1
 # Hide sidebar on all article page to let article take full width to improve reading, and enjoy wide images and cover images. (true: enable, false: disable)
-clear_reading: true
+clear_reading: false
 # Head title displayed at the top of the table of contents.
 toc_title: Table of contents
 # Display thumbnail image of each post on index pages (false: disabled, true: enabled)
@@ -152,11 +146,11 @@ tag_pagination: true
 
 # Integrated services
 # Your Disqus shortname
-disqus_shortname:
+disqus_shortname: lee101
 # Your Google analystics web property ID : UA-XXXXX-X
-google_analytics_id:
+google_analytics_id: UA-65838109-1
 # Your Gravatar email. Overwrite `author.picture` everywhere in the blog
-gravatar_email:
+gravatar_email: leepenkman@gmail.com
 # Your swiftype install key
 swiftype_install_key:
 # Your Facebook user ids used to connect your blog with your facebook user accounts (Facebook Insights). Separate ids with comma. e.g : 9830047,1003342
