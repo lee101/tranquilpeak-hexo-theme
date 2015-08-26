@@ -102,6 +102,8 @@ author:
     # Your profile picture located in folder `source/_images/` (development)
     # or in `source/assets/images/` (production).
     # Overwritten by your gravatar image if `gravatar_image` is enabled
+    bio: Nerd/Geek, Software &amp; Games Developer
+    job: Software Developer at Weta Digital
     picture:
     # Your Twitter username without the @. E.g : `tranquilpeak`
     twitter: LeeLeePenkman
@@ -137,7 +139,7 @@ cover_image: http://res.cloudinary.com/tranquilpeak-hexo-theme/image/upload/v143
 # Your favicon located in folder `source/_images/` (development) or in `source/assets/images/` (production)
 favicon:
 # Display an image gallery at the end of a post which have photos variables (false: disabled, true: enabled)
-image_gallery: true
+image_gallery: false
 # Pagination behavior of archive, category and tag pages (false: pagination disabled, true: pagination enabled)
 archive_pagination: true
 category_pagination: true
