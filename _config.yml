@@ -52,6 +52,10 @@ sidebar:
             title: About me
             url: /#about
             icon: question
+        resume:
+            title: Resume
+            url: http://leepenkman.appspot.com
+            icon: file-text
     author_links:
          github:
              title: global.github
@@ -102,8 +106,8 @@ author:
     # Your profile picture located in folder `source/_images/` (development)
     # or in `source/assets/images/` (production).
     # Overwritten by your gravatar image if `gravatar_image` is enabled
-    bio: Nerd/Geek, Software &amp; Games Developer
-    job: Software Developer at Weta Digital
+    bio: Nerd/Geek, Software &amp; Games Developer, Multiple hat wearer
+    job: Software Developer at NZRS
     picture:
     # Your Twitter username without the @. E.g : `tranquilpeak`
     twitter: LeeLeePenkman
