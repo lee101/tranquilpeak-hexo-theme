@@ -30,24 +30,6 @@ sidebar:
             title: Home
             url: /
             icon: home
-        categories:
-            title: Categories
-            url: /all-categories
-            icon: bookmark
-        tags:
-            title: Tags
-            url: /all-tags
-            icon: tags
-        archives:
-            title: Archives
-            url: /all-archives
-            icon: archive
-        search:
-            title: Search
-            url: /#search
-            icon: search
-            # `st-search-show-outputs` classes are used to open swiftype search window
-            class: t-search-show-outputs
         about:
             title: About me
             url: /#about
@@ -107,7 +89,7 @@ author:
     # or in `source/assets/images/` (production).
     # Overwritten by your gravatar image if `gravatar_image` is enabled
     bio: Nerd/Geek, Software &amp; Games Developer, Multiple hat wearer
-    job: Software Developer at NZRS
+    job: Software Developer at Weta Digital
     picture:
     # Your Twitter username without the @. E.g : `tranquilpeak`
     twitter: LeeLeePenkman
